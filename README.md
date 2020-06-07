@@ -13,7 +13,7 @@ You can verify the size of the downloaded file with:
 wc -c ssdtPRGen.sh
 ```
 
-That should match with what you see [here] (https://github.com/Piker-Alpha/ssdtPRGen.sh/blob/Beta/ssdtPRGen.sh). Right now that is 142KB. A failed download is usually much smaller (like 447 bytes or so).
+That should match with what you see [here] (https://github.com/startergo/ssdtPRGen.sh/blob/Beta/ssdtPRGen.sh). Right now that is 142KB. A failed download is usually much smaller (like 447 bytes or so).
 
 
 This will download ssdtPRGen.sh to your home directory (~) and the next step is to change the permissions of the file (add +x) so that it can be run.
@@ -25,7 +25,7 @@ chmod +x ~/ssdtPRGen.sh
 Note: ssdtPRGen.sh v15.1 and greater require a working Internet connection so that it can download configuration data and command line tools. You can also download a complete zip archive by entering the following commands in a terminal window:
 
 ``` sh
-curl -o ~/Library/ssdtPRGen.zip https://codeload.github.com/Piker-Alpha/ssdtPRGen.sh/zip/Beta
+curl -o ~/Library/ssdtPRGen.zip https://codeload.github.com/startergo/ssdtPRGen.sh/zip/Beta
 unzip -qu ~/Library/ssdtPRGen.zip -d ~/Library/
 mv ~/Library/ssdtPRGen.sh-Beta ~/Library/ssdtPRGen
 rm ~/Library/ssdtPRGen.zip
