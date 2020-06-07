@@ -4,7 +4,7 @@ ssdtPRGen.sh
 You can download the latest Beta of ssdtPRGen.sh by entering the following command in a terminal window:
 
 ``` sh
-curl -o ~/ssdtPRGen.sh https://raw.githubusercontent.com/Piker-Alpha/ssdtPRGen.sh/Beta/ssdtPRGen.sh
+curl -o ~/ssdtPRGen.sh https://raw.githubusercontent.com/startergo/ssdtPRGen.sh/Beta/ssdtPRGen.sh
 ```
 
 You can verify the size of the downloaded file with:
